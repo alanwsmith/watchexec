@@ -238,8 +238,6 @@ pub async fn origins(path: impl AsRef<Path> + Send) -> HashSet<PathBuf> {
 			list.has_file("package.json"),
 			list.has_file("pom.xml"),
 			list.has_file("project.clj"),
-			list.has_file("README.md"),
-			list.has_file("README"),
 			list.has_file("requirements.txt"),
 			list.has_file("v.mod"),
 			list.has_file("CONTRIBUTING.md"),
